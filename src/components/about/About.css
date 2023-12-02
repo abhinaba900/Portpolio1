@@ -1,0 +1,87 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding: 8rem;
+}
+
+.about h1 {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.about li {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-style: bold;
+  margin-bottom: 1rem;
+}
+
+
+.education{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding: 8rem;
+}
+
+.education h1 {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.education li {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-style: bold;
+  text-align: auto;
+  margin-bottom: 1rem;
+}
+
+
+.education li:hover{
+  color: #3c4fe0;
+  cursor: pointer;
+  transition: 0.5s;
+  transition: smooth;
+  font-weight: 700;
+}
+@media screen and (max-width: 768px) {
+  .about {
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .about h1 {
+    font-size: 2rem;
+  }
+
+  .about li {
+    font-size: 1rem;
+  }
+
+  .education {
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .education h1 {
+    font-size: 2rem;
+  }
+
+  .education li {
+    font-size: 1rem;
+  }
+
+
+}
