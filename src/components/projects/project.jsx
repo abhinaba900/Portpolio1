@@ -5,6 +5,13 @@ import image3 from "./SuperheroresumeImage/image3.png";
 import "./project.css";
 import airtable1 from "./AirtableImage/airtable1.png";
 import airtable2 from "./AirtableImage/airtable2.png";
+import {
+  Tag,
+  TagLabel,
+  TagLeftIcon,
+  TagRightIcon,
+  TagCloseButton,
+} from "@chakra-ui/react";
 import { useEffect } from "react";
 
 function Project() {
@@ -50,7 +57,6 @@ function Project() {
             boxShadow: "2xl",
             transform: "scale(1.1)",
             transition: "all 0.5s ease",
-            cursor: "pointer",
           }}
           className="projectContent1"
         >
@@ -74,7 +80,12 @@ function Project() {
               as={"span"}
             >
               {" "}
-              HTML5 | CSS3{" "}
+              <Tag size={"lg"} variant={"solid"} colorScheme="blue">
+                HTML5
+              </Tag>{" "}
+              <Tag size={"lg"} variant={"solid"} colorScheme="blue">
+                CSS3
+              </Tag>
             </Text>
           </Text>
           <Text fontSize={{ base: "14px", md: "16px", lg: "18px" }} as={"p"}>
@@ -107,7 +118,6 @@ function Project() {
             boxShadow: "2xl",
             transform: "scale(1.1)",
             transition: "all 0.5s ease",
-            cursor: "pointer",
           }}
           className="projectContent1"
         >
@@ -130,7 +140,24 @@ function Project() {
               as={"span"}
             >
               {" "}
-              HTML5 | CSS3 | JavaScript | React | Vite | Chakra UI{" "}
+              <Tag size={"lg"} variant={"solid"} colorScheme="blue">
+                HTML5
+              </Tag>{" "}
+              <Tag size={"lg"} variant={"solid"} colorScheme="blue">
+                CSS3
+              </Tag>{" "}
+              <Tag size={"lg"} variant={"solid"} colorScheme="blue">
+                JavaScript
+              </Tag>{" "}
+              <Tag size={"lg"} variant={"solid"} colorScheme="blue">
+                React
+              </Tag>{" "}
+              <Tag size={"lg"} variant={"solid"} colorScheme="blue">
+                Vite
+              </Tag>{" "}
+              <Tag size={"lg"} variant={"solid"} colorScheme="blue">
+                Chakra UI
+              </Tag>{" "}
             </Text>
           </Text>
           <Text fontSize={{ base: "14px", md: "16px", lg: "18px" }} as={"p"}>

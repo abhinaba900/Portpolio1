@@ -10,6 +10,7 @@ import {
   Heading,
   useToast,
 } from "@chakra-ui/react";
+import AnimatedContactForm from "./AnimatedContactForm";
 
 function Contact() {
   const [email, setEmail] = React.useState("");
@@ -68,6 +69,8 @@ function Contact() {
 
   return (
     <Box>
+      <AnimatedContactForm />
+
       <Box
         marginTop={{ base: 16, md: 24, lg: 32, xl: 60 }}
         _hover={{
@@ -79,7 +82,7 @@ function Contact() {
         borderRadius={{ base: "none", md: "xl" }}
         mb={{ base: 16, md: 24 }}
         mt={{ base: 16, md: 24 }}
-        className="contact"
+        
         boxShadow={{ base: "none", md: "xl" }}
         mx="auto"
         w={{ base: "90%", md: "40%" }}

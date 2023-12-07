@@ -107,7 +107,13 @@ function Navbar() {
           <Text
             as="a"
             href={Resume}
-            download={true}
+            download={'Abhinaba-jana-Resume.pdf'}
+            onClick={() => {
+              window.open(
+                "https://drive.google.com/file/d/1uBgffV5MAq5LW80ColbWqOAARWg0ZdL0/view?usp=sharing",
+                "_blank"
+              );
+            }}
             className="desktopMenuListItem resume"
           >
             Resume

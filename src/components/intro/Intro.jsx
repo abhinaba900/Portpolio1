@@ -59,7 +59,16 @@ function Introd() {
             </Text>
           </Text>
           <Button className="button-29">
-            <a download={true} href={resume}>
+            <a
+              download={"Abhinaba-jana-Resume.pdf"}
+              onClick={() => {
+                window.open(
+                  "https://drive.google.com/file/d/1uBgffV5MAq5LW80ColbWqOAARWg0ZdL0/view?usp=sharing",
+                  "_blank"
+                );
+              }}
+              href={resume}
+            >
               Download My Resume
             </a>
           </Button>
