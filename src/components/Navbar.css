@@ -4,13 +4,13 @@
   margin: 0 auto;
   padding: 1rem 2rem;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
   z-index: 100;
-  margin: auto;
+  
 }
 
 .logo {
@@ -18,7 +18,11 @@
   height: auto;
   width: 6rem;
   overflow: hidden;
+  display: block;
+  align-items: left;
+ 
 }
+
 
 .desktopMenuListItem {
   margin: 1rem;
@@ -51,9 +55,13 @@
 
 @media screen and (max-width: 768px) {
   .navbar {
-    width: auto;
+    width: 100%;
     position: sticky;
-    z-index: 99;
+    z-index: 100;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #2C7A7B;
   }
 
   .logo {

@@ -13,6 +13,7 @@ import NavbarTwo from "./NavbarTwo";
 import React from "react";
 import { motion } from "framer-motion";
 import { Text } from "@chakra-ui/react";
+import Statisticks from "./statisticks/Statisticks";
 
 function Navbar() {
   const [isMobile, setIsMobile] = React.useState(false);
@@ -35,7 +36,9 @@ function Navbar() {
     <Box className="App-header">
       {!isMobile ? (
         <Box as="nav" backgroundColor={"teal.600"} p={4} className="navbar">
+          <Box className="logoBox">
           <Image className="logo" src={logo} alt=" logo" />
+          </Box>
           <Box className="decstopmenu">
             <Link
               to="intro"
@@ -82,6 +85,17 @@ function Navbar() {
               Skill
             </Link>
             <Link
+              to="statistics"
+              spy={true}
+              offset={-120}
+              smooth={true}
+              duration={100}
+              activeClass="active"
+              className="desktopMenuListItem"
+            >
+              Statistics
+            </Link>
+            <Link
               to="project"
               spy={true}
               offset={-120}
@@ -103,21 +117,21 @@ function Navbar() {
             >
               Contact
             </Link>
+            <Text
+              as="a"
+              href={Resume}
+              download={"Abhinaba-jana-Resume.pdf"}
+              onClick={() => {
+                window.open(
+                  "https://drive.google.com/file/d/1iIX8BYYsdKCobrsdWvDStdgAabrvpHEh/view?usp=sharing",
+                  "_blank"
+                );
+              }}
+              className="desktopMenuListItem resume"
+            >
+              Resume
+            </Text>
           </Box>
-          <Text
-            as="a"
-            href={Resume}
-            download={'Abhinaba-jana-Resume.pdf'}
-            onClick={() => {
-              window.open(
-                "https://drive.google.com/file/d/1uBgffV5MAq5LW80ColbWqOAARWg0ZdL0/view?usp=sharing",
-                "_blank"
-              );
-            }}
-            className="desktopMenuListItem resume"
-          >
-            Resume
-          </Text>
         </Box>
       ) : (
         <NavbarTwo />
@@ -127,6 +141,7 @@ function Navbar() {
       <About />
       <Education />
       <Skill />
+      <Statisticks />
       <Project />
       <Contact />
       <footer

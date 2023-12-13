@@ -63,7 +63,7 @@ function Introd() {
               download={"Abhinaba-jana-Resume.pdf"}
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1uBgffV5MAq5LW80ColbWqOAARWg0ZdL0/view?usp=sharing",
+                  "https://drive.google.com/file/d/1iIX8BYYsdKCobrsdWvDStdgAabrvpHEh/view?usp=sharing",
                   "_blank"
                 );
               }}

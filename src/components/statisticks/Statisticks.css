@@ -1,0 +1,27 @@
+.statistics {
+  padding: 50px 0;
+  text-align: center;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+}
+
+.regular {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-left: 2rem;
+}

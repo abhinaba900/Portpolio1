@@ -1,6 +1,6 @@
 .appContainer {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   color: #000000;
   position: relative;
   display: flex;
@@ -18,7 +18,7 @@
 
 .marquee {
   display: flex;
-  width: 100%; /* Changed width to 100% for better responsiveness */
+  width: 100%; 
   overflow: hidden;
   user-select: none;
 }
