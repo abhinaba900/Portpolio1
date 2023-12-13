@@ -97,6 +97,7 @@ function Project() {
               <Text
                 fontSize={{ base: "14px", md: "16px", lg: "18px" }}
                 as={"a"}
+                target="_blank"
                 href="https://github.com/abhinaba900/superheroResume"
               >
                 Sorce Code
@@ -106,6 +107,7 @@ function Project() {
               <Text
                 fontSize={{ base: "14px", md: "16px", lg: "18px" }}
                 as={"a"}
+                target="_blank"
                 href="https://rococo-salamander-0aeabf.netlify.app/"
               >
                 Live Demo
@@ -169,6 +171,7 @@ function Project() {
               <Text
                 fontSize={{ base: "14px", md: "16px", lg: "18px" }}
                 as={"a"}
+                target="_blank"
                 href="https://github.com/abhinaba1999/airtable.com"
               >
                 Sorce Code
@@ -178,6 +181,7 @@ function Project() {
               <Text
                 fontSize={{ base: "14px", md: "16px", lg: "18px" }}
                 as={"a"}
+                target="_blank"
                 href="https://airtable-com-eight.vercel.app/"
               >
                 Live Demo

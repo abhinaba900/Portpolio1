@@ -71,11 +71,6 @@ function AnimatedContactForm() {
             <Text
               fontSize={{ base: "1rem", md: "1rem", lg: "1rem", xl: "1.2rem" }}
               as={"a"}
-              href="CONTACT:abhinabajana900@gmail.com"
-              target="_blank"
-              rel="noreferrer"
-              _hover={{ color: "blue" }}
-              cursor={"pointer"}
             >
               abhinabajana900@gmail.com
             </Text>

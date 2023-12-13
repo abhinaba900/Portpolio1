@@ -46,14 +46,6 @@
   margin-bottom: 1rem;
 }
 
-
-.education li:hover{
-  color: #3c4fe0;
-  cursor: pointer;
-  transition: 0.5s;
-  transition: smooth;
-  font-weight: 700;
-}
 @media screen and (max-width: 768px) {
   .about {
     padding: 2rem;
