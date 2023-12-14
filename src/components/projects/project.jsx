@@ -52,14 +52,7 @@ function Project() {
         Projects
       </Heading>
       <Box className="projectContainer">
-        <Box
-          _hover={{
-            boxShadow: "2xl",
-            transform: "scale(1.1)",
-            transition: "all 0.5s ease",
-          }}
-          className="projectContent1"
-        >
+        <Box className="projectContent1">
           <Image src={mainImage} />
           <Heading
             fontSize={{ base: "20px", md: "24px", lg: "28px" }}
@@ -115,14 +108,7 @@ function Project() {
             </Button>
           </Box>
         </Box>
-        <Box
-          _hover={{
-            boxShadow: "2xl",
-            transform: "scale(1.1)",
-            transition: "all 0.5s ease",
-          }}
-          className="projectContent1"
-        >
+        <Box className="projectContent1">
           <Image src={airtable} />
           <Heading
             fontSize={{ base: "20px", md: "24px", lg: "28px" }}

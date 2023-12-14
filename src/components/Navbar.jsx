@@ -10,26 +10,31 @@ import Project from "./projects/project";
 import Contact from "./contact/contact";
 import Education from "./about/Education";
 import NavbarTwo from "./NavbarTwo";
-import React from "react";
-import { motion } from "framer-motion";
+import React, { useEffect, useState } from "react";
 import { Text } from "@chakra-ui/react";
 import Statisticks from "./statisticks/Statisticks";
 
 function Navbar() {
-  const [isMobile, setIsMobile] = React.useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+  
 
-  React.useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth < 768) {
-        setIsMobile(true);
-      } else {
-        setIsMobile(false);
-      }
+ 
+  
+  useEffect(() => {
+    const matcher = window.matchMedia("(max-width: 768px)");
+  
+    const handleChange = () => {
+      setIsMobile(matcher.matches);
     };
-    window.addEventListener("resize", handleResize);
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
+  
+    // Call handleChange immediately to set initial state
+    handleChange();
+  
+    // Add event listener
+    matcher.addListener(handleChange);
+  
+    // Cleanup function
+    return () => matcher.removeListener(handleChange);
   }, []);
 
   return (
@@ -37,7 +42,7 @@ function Navbar() {
       {!isMobile ? (
         <Box as="nav" backgroundColor={"teal.600"} p={4} className="navbar">
           <Box className="logoBox">
-          <Image className="logo" src={logo} alt=" logo" />
+            <Image className="logo" src={logo} alt=" logo" />
           </Box>
           <Box className="decstopmenu">
             <Link
@@ -161,3 +166,4 @@ function Navbar() {
 }
 
 export default Navbar;
+

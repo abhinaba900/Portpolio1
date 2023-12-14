@@ -48,9 +48,10 @@
 
 @media screen and (max-width: 768px) {
   .about {
-    padding: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    padding: 4rem;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
   }
 
   .about h1 {
@@ -62,9 +63,11 @@
   }
 
   .education {
-    padding: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    align-items: center;
+    margin: auto;
+    padding: 4rem;
+    justify-content: center;
+
   }
 
   .education h1 {

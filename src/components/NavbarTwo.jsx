@@ -46,6 +46,7 @@ function NavbarTwo() {
               duration={100}
               activeClass="active"
               className="mobileMenuListItem"
+              key={section}
             >
               <MenuItem key={section}>
                 {section.charAt(0).toUpperCase() + section.slice(1)}

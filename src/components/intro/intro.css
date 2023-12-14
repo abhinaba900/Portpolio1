@@ -63,9 +63,15 @@
     justify-content: center;
     margin: auto;
     width: 100%;
+    gap: 2rem;
   }
   .introContent {
     width: 90%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 1rem;
   }
   .introContent > h1 {
     font-size: 2rem;
@@ -82,5 +88,9 @@
     margin-left: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
   }
 }

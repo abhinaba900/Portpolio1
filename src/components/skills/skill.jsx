@@ -27,7 +27,7 @@ function Skill() {
         <main className="marquee">
           <Box className="marqueeGroup">
             {imageGroups.map((image, index) => (
-              <Box className="imageGroup">
+              <Box key={index} className="imageGroup">
                 <Image key={index} src={image} alt="js logo" />
                 <Text key={index} as={"p"}>
                   {textGroups[index]}
@@ -37,7 +37,7 @@ function Skill() {
           </Box>
           <Box className="marqueeGroup">
             {imageGroups.map((image, index) => (
-              <Box className="imageGroup">
+              <Box key={index} className="imageGroup">
                 <Image key={index} src={image} alt="js logo" />
                 <Text key={index} as={"p"}>
                   {textGroups[index]}
@@ -54,7 +54,7 @@ function Skill() {
         <main className="marquee">
           <Box className="marqueeGroup">
             {imageGroups2.map((image, index) => (
-              <Box className="imageGroup">
+              <Box key={index} className="imageGroup">
                 <Image key={index} src={image} alt="js logo" />
                 <Text key={index} as={"p"}>
                   {textGroups2[index]}
@@ -64,7 +64,7 @@ function Skill() {
           </Box>
           <Box className="marqueeGroup">
             {imageGroups2.map((image, index) => (
-              <Box className="imageGroup">
+              <Box  key={index} className="imageGroup">
                 <Image key={index} src={image} alt="js logo" />
                 <Text key={index} as={"p"}>
                   {textGroups2[index]}
