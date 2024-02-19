@@ -1,17 +1,11 @@
 import { Box, Image, Heading, Text, Button } from "@chakra-ui/react";
 import React from "react";
-import image1 from "./SuperheroresumeImage/image1.png";
-import image3 from "./SuperheroresumeImage/image3.png";
+import image1 from "./Costco/Screenshot 2024-02-19 191850.png";
+import image3 from "./Costco/Screenshot 2024-02-19 191912.png";
 import "./project.css";
 import airtable1 from "./AirtableImage/airtable1.png";
 import airtable2 from "./AirtableImage/airtable2.png";
-import {
-  Tag,
-  TagLabel,
-  TagLeftIcon,
-  TagRightIcon,
-  TagCloseButton,
-} from "@chakra-ui/react";
+import { Tag } from "@chakra-ui/react";
 import { useEffect } from "react";
 
 function Project() {
@@ -61,10 +55,10 @@ function Project() {
             Superhero Resume
           </Heading>
           <Text fontSize={{ base: "14px", md: "16px", lg: "18px" }} as={"p"}>
-            Crafting a narrative of extraordinary accomplishments and valor,
-            presenting the Superhero Resume—a testament to unparalleled
-            expertise, valor, and unwavering dedication in safeguarding the
-            world.
+            Using advanced HTML, CSS, JavaScript, and web frameworks, I
+            accurately recreated Costco's website, focusing on its layout,
+            navigation, and interactive elements, with a keen emphasis on mobile
+            responsiveness and cross-browser compatibility.
           </Text>
           <Text fontSize={{ base: "14px", md: "16px", lg: "18px" }} as={"h4"}>
             Tech Stack :
@@ -78,6 +72,18 @@ function Project() {
               </Tag>{" "}
               <Tag size={"lg"} variant={"solid"} colorScheme="blue">
                 CSS3
+              </Tag>
+              <Tag size={"lg"} variant={"solid"} colorScheme="blue">
+                JavaScript
+              </Tag>
+              <Tag size={"lg"} variant={"solid"} colorScheme="blue">
+                ReactJS
+              </Tag>
+              <Tag size={"lg"} variant={"solid"} colorScheme="blue">
+                Express
+              </Tag>
+              <Tag size={"lg"} variant={"solid"} colorScheme="blue">
+                Mongo DB
               </Tag>
             </Text>
           </Text>
