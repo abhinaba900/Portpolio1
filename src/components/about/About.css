@@ -21,7 +21,8 @@
   align-items: center;
   margin-top: 0rem;
   margin-bottom: 1rem;
-  gap: 2rem;
+  gap: 8rem;
+  margin-left: 2rem;
 }
 
 .about div>div{
