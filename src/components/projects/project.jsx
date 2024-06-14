@@ -5,7 +5,7 @@ import image3 from "./Costco/Screenshot 2024-02-19 191912.png";
 import "./project.css";
 import airtable1 from "./AirtableImage/airtable1.png";
 import airtable2 from "./AirtableImage/airtable2.png";
-import { Tag } from "@chakra-ui/react";
+import { Tag, UnorderedList, ListItem } from "@chakra-ui/react";
 import { useEffect } from "react";
 
 function Project() {
@@ -52,13 +52,22 @@ function Project() {
             fontSize={{ base: "20px", md: "24px", lg: "28px" }}
             as={"h3"}
           >
-            Superhero Resume
+            Replica of Costco.com
           </Heading>
           <Text fontSize={{ base: "14px", md: "16px", lg: "18px" }} as={"p"}>
-            Using advanced HTML, CSS, JavaScript, and web frameworks, I
-            accurately recreated Costco's website, focusing on its layout,
-            navigation, and interactive elements, with a keen emphasis on mobile
-            responsiveness and cross-browser compatibility.
+            <UnorderedList>
+              <ListItem>
+                Using advanced HTML, CSS, JavaScript, and web frameworks, I
+                accurately recreated Costco's website.
+              </ListItem>
+              <ListItem>
+                Focused on the layout, navigation, and interactive elements.
+              </ListItem>
+              <ListItem>
+                Emphasized mobile responsiveness and cross-browser
+                compatibility.
+              </ListItem>
+            </UnorderedList>
           </Text>
           <Text fontSize={{ base: "14px", md: "16px", lg: "18px" }} as={"h4"}>
             Tech Stack :
@@ -67,29 +76,75 @@ function Project() {
               as={"span"}
             >
               {" "}
-              <Tag size={"lg"} variant={"solid"} colorScheme="blue">
+              <Tag
+                size={"lg"}
+                variant={"solid"}
+                colorScheme="blue"
+                mb={"1rem"}
+                mr={"1rem"}
+              >
                 HTML5
               </Tag>{" "}
-              <Tag size={"lg"} variant={"solid"} colorScheme="blue">
+              <Tag
+                size={"lg"}
+                variant={"solid"}
+                colorScheme="blue"
+                mb={"1rem"}
+                mr={"1rem"}
+              >
                 CSS3
               </Tag>
-              <Tag size={"lg"} variant={"solid"} colorScheme="blue">
+              <Tag
+                size={"lg"}
+                variant={"solid"}
+                colorScheme="blue"
+                mb={"1rem"}
+                mr={"1rem"}
+              >
                 JavaScript
               </Tag>
-              <Tag size={"lg"} variant={"solid"} colorScheme="blue">
+              <Tag
+                size={"lg"}
+                variant={"solid"}
+                colorScheme="blue"
+                mb={"1rem"}
+                mr={"1rem"}
+              >
                 ReactJS
               </Tag>
-              <Tag size={"lg"} variant={"solid"} colorScheme="blue">
+              <Tag
+                size={"lg"}
+                variant={"solid"}
+                colorScheme="blue"
+                mb={"1rem"}
+                mr={"1rem"}
+              >
                 Express
               </Tag>
-              <Tag size={"lg"} variant={"solid"} colorScheme="blue">
+              <Tag
+                size={"lg"}
+                variant={"solid"}
+                colorScheme="blue"
+                mb={"1rem"}
+                mr={"1rem"}
+              >
                 Mongo DB
               </Tag>
             </Text>
           </Text>
           <Text fontSize={{ base: "14px", md: "16px", lg: "18px" }} as={"p"}>
-            Professionally crafted: Superhero Resume, a solo project
-            meticulously developed within a span of 4 hours.
+            <UnorderedList>
+              <ListItem>
+                <strong>Project:</strong> Costco Website Clone
+              </ListItem>
+              <ListItem>
+                <strong>Duration:</strong> 8 days
+              </ListItem>
+              <ListItem>
+                <strong>Description:</strong> A comprehensive solo project where
+                I meticulously redesigned and developed the Costco website.
+              </ListItem>
+            </UnorderedList>
           </Text>
           <Box display={"flex"} gap={"1rem"}>
             <Button>
@@ -97,7 +152,7 @@ function Project() {
                 fontSize={{ base: "14px", md: "16px", lg: "18px" }}
                 as={"a"}
                 target="_blank"
-                href="https://github.com/abhinaba900/superheroResume"
+                href="https://github.com/abhinaba900/costco.com"
               >
                 Sorce Code
               </Text>
@@ -107,7 +162,7 @@ function Project() {
                 fontSize={{ base: "14px", md: "16px", lg: "18px" }}
                 as={"a"}
                 target="_blank"
-                href="https://rococo-salamander-0aeabf.netlify.app/"
+                href="https://costco-com-i4c5.vercel.app/"
               >
                 Live Demo
               </Text>
@@ -123,40 +178,69 @@ function Project() {
             Replica of airtable.com
           </Heading>
           <Text fontSize={{ base: "14px", md: "16px", lg: "18px" }} as={"p"}>
-            "Airtable: Revolutionizing work management with its dynamic blend of
-            spreadsheet and database functionalities, empowering seamless
-            collaboration and structured organization."
+            <UnorderedList>
+              <ListItem>
+                Revolutionizing work management with its dynamic blend of
+                spreadsheet and database functionalities.
+              </ListItem>
+              <ListItem>
+                Empowering seamless collaboration among team members.
+              </ListItem>
+              <ListItem>
+                Enabling structured organization of data and tasks.
+              </ListItem>
+            </UnorderedList>
           </Text>
-          <Text fontSize={{ base: "14px", md: "16px", lg: "18px" }} as={"h4"}>
+          <Text
+            fontSize={{ base: "14px", md: "16px", lg: "18px" }}
+            as={"h4"}
+            lineHeight={"1.5"}
+          >
             Tech Stack :
             <Text
               fontSize={{ base: "14px", md: "16px", lg: "18px" }}
               as={"span"}
             >
               {" "}
-              <Tag size={"lg"} variant={"solid"} colorScheme="blue">
+              <Tag
+                size={"lg"}
+                variant={"solid"}
+                colorScheme="blue"
+                mr={"1rem"}
+                mb={"1rem"}
+              >
                 HTML5
               </Tag>{" "}
-              <Tag size={"lg"} variant={"solid"} colorScheme="blue">
+              <Tag size={"lg"} variant={"solid"} colorScheme="blue" mr={"1rem"}>
                 CSS3
               </Tag>{" "}
-              <Tag size={"lg"} variant={"solid"} colorScheme="blue">
+              <Tag size={"lg"} variant={"solid"} colorScheme="blue" mr={"1rem"}>
                 JavaScript
               </Tag>{" "}
-              <Tag size={"lg"} variant={"solid"} colorScheme="blue">
+              <Tag size={"lg"} variant={"solid"} colorScheme="blue" mr={"1rem"}>
                 React
               </Tag>{" "}
-              <Tag size={"lg"} variant={"solid"} colorScheme="blue">
+              <Tag size={"lg"} variant={"solid"} colorScheme="blue" mr={"1rem"}>
                 Vite
               </Tag>{" "}
-              <Tag size={"lg"} variant={"solid"} colorScheme="blue">
+              <Tag size={"lg"} variant={"solid"} colorScheme="blue" mr={"1rem"}>
                 Chakra UI
               </Tag>{" "}
             </Text>
           </Text>
           <Text fontSize={{ base: "14px", md: "16px", lg: "18px" }} as={"p"}>
-            Professional Airtable website clone developed diligently in just 8
-            days.
+            <UnorderedList>
+              <ListItem>
+                <strong>Project:</strong> Airtable Website Clone
+              </ListItem>
+              <ListItem>
+                <strong>Duration:</strong> 8 days
+              </ListItem>
+              <ListItem>
+                <strong>Description:</strong> Professional Airtable website
+                clone developed diligently in just 8 days.
+              </ListItem>
+            </UnorderedList>
           </Text>
           <Box display={"flex"} gap={"1rem"}>
             <Button>
