@@ -67,17 +67,7 @@ function Navbar() {
             >
               About
             </Link>
-            <Link
-              to="education"
-              spy={true}
-              smooth={true}
-              offset={-150}
-              duration={100}
-              activeClass="active"
-              className="desktopMenuListItem"
-            >
-              Education
-            </Link>
+            
             <Link
               to="skill"
               spy={true}
@@ -89,17 +79,7 @@ function Navbar() {
             >
               Skill
             </Link>
-            <Link
-              to="statistics"
-              spy={true}
-              offset={-120}
-              smooth={true}
-              duration={100}
-              activeClass="active"
-              className="desktopMenuListItem"
-            >
-              Statistics
-            </Link>
+            
             <Link
               to="project"
               spy={true}
@@ -128,7 +108,7 @@ function Navbar() {
               download={"Abhinaba-jana-Resume.pdf"}
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1NJ2WVhbXWd68htu13iNwjAOU3X4QAW2P/view?usp=sharing",
+                  "https://drive.google.com/file/d/1UyNub2nL17zdUuF4ENFrLBDG1WEA2F8-/view?usp=sharing",
                   "_blank"
                 );
               }}

@@ -14,11 +14,18 @@
   font-weight: 700;
 }
 
-.about li {
-  font-size: 1.5rem;
-  font-weight: 400;
-  font-style: bold;
+
+.about div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0rem;
   margin-bottom: 1rem;
+  gap: 2rem;
+}
+
+.about div>div{
+  width: 50%;
 }
 
 
@@ -58,8 +65,16 @@
     font-size: 2rem;
   }
 
-  .about li {
-    font-size: 1rem;
+  .about div {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+  }
+
+  .about div > div {
+    width: 100%;
   }
 
   .education {

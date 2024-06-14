@@ -1,6 +1,6 @@
 import React from "react";
 import Typed from "typed.js";
-import profile from "../../image/profile.png";
+import profile from "../../image/2517915.jpg";
 import "./intro.css";
 import { Box, Button, Heading, Text, Image } from "@chakra-ui/react";
 import resume from "../../resume/resume.pdf";
@@ -63,7 +63,7 @@ function Introd() {
               download={"Abhinaba-jana-Resume.pdf"}
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1NJ2WVhbXWd68htu13iNwjAOU3X4QAW2P/view?usp=sharing",
+                  "https://drive.google.com/file/d/1UyNub2nL17zdUuF4ENFrLBDG1WEA2F8-/view?usp=sharing",
                   "_blank"
                 );
               }}
